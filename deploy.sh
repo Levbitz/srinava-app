@@ -8,5 +8,5 @@ echo "Building app"
 yarn build
 
 echo "Deploying files to server"
-rsync -avP dist/ sam@srinava.com:/var/www/srinava.com/
+rsync -avP dist/ sam@172.105.39.26/:/var/www/172.105.39.26/
 echo "Deployment complete"
