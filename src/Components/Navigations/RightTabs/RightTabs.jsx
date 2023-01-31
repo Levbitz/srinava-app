@@ -2,9 +2,6 @@ import React, { useContext, useState } from "react";
 import { ThemeContext } from "../../../lib/context/ThemeContext/theme";
 
 import {
-  FaUserCheck,
-  FaLink,
-  FaTachometerAlt,
   FaBell,
   FaWallet,
   FaBriefcase,
@@ -15,19 +12,6 @@ import {
   FaCreditCard,
   FaChalkboardTeacher,
   FaShoppingCart,
-
-  //   FaExclamationTrian,
-  //   FaStackExchange,
-  FaHome,
-  FaScroll,
-  FaCalculator,
-  FaUserFriends,
-  FaAddressBook,
-  FaClipboardList,
-  FaCookieBite,
-  FaShieldAlt,
-  FaVrCardboard,
-  FaCubes,
 } from "react-icons/fa";
 import ThemeToggle from "../../ThemeToggle/ThemeToggle";
 import { NavLink } from "react-router-dom";

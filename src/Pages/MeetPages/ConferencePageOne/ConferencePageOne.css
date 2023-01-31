@@ -58,3 +58,27 @@ border-left-color: rgb(233, 69, 96); */
 .conference_middle_top {
   font-size: 13px;
 }
+.chit_group_name {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.previous-bid-text {
+  font-size: 11px;
+  margin-bottom: 2px;
+  color: #0369a1;
+}
+
+.side_users_wrap {
+  height: 420px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 620px) {
+  .side_users_wrap {
+    height: 220px;
+
+    overflow-y: scroll;
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { IoIosPeople } from "react-icons/io";
 import { FaBrain } from "react-icons/fa";
 import { BsBank } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function BottomTabs() {
   return (
@@ -17,11 +18,13 @@ function BottomTabs() {
         margin: "0px auto",
       }}
     >
-      <div>
-        <IoIosPeople className=" text-center ml-5" size={25} />
+      <Link to="/conference">
+        <div>
+          <IoIosPeople className=" text-center ml-5" size={25} />
 
-        <p className="text-xs text-center">Community</p>
-      </div>
+          <p className="text-xs text-center">Community</p>
+        </div>
+      </Link>
 
       <div className="bg-white text-black py-1 px-3 rounded">
         <FaBrain className="ml-1" size={25} />
